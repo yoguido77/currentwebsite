@@ -145,6 +145,11 @@ PAGE: CONTACT
   font-size: 0.9em;
 }
 
+
+/*
+margin adds space on the outside of the element, padding adds space on the inside of the element and makes space between the elements edge and content
+}*/
+
 .contact-info a {
   display: block;
   min-height: 20px;
@@ -160,15 +165,22 @@ List element with the class phone selecting the anchor element
 
 .contact-info li.phone a {
   background-image: url('../img/phone.png');
+  
+  
 }
 
 .contact-info li.mail a {
   background-image: url('../img/mail.png');
+  
+  
 }
 
 .contact-info li.twitter a {
   background-image: url('../img/twitter.png');
+  
+  
 }
+
 
 /*****************
 COLORS
